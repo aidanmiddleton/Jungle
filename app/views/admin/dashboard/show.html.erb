@@ -1,2 +1,16 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<section class="admin-products-index">
+
+  <header class="page-header">
+    <h1>Admin &raquo; Dashboard</h1>
+  </header>
+
+  <div class="row text-center">
+    <%= link_to 'admin/products#index' do %>
+    <div class="col-md-6 well"><h2>Total products: <%= @total_products %></h2></div>
+    <% end %>
+    <%= link_to 'admin/categories#index' do %>
+    <div class="col-md-6 well"><h2>Total categories: <%= @total_categories %></h2></div>
+    </div>
+    <% end %>
+  </div> 
+</section>
