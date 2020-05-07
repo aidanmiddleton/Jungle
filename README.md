@@ -20,8 +20,23 @@ Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
+## Admin Access
+
+Use username 'Jungle' and password 'book' to access admin pages
+
 ## Dependencies
 
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+
+!["Main Product Page"](https://github.com/aidanmiddleton/Jungle/blob/master/screenshots/main_product_page.png?raw=true)
+
+!["Cart Page"](https://github.com/aidanmiddleton/Jungle/blob/master/screenshots/cart_view.png?raw=true)
+
+!["Admin"](https://github.com/aidanmiddleton/Jungle/blob/master/screenshots/admin_area.png?raw=true)
+
+
+
